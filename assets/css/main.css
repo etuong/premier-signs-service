@@ -1,5 +1,6 @@
 html {
   line-height: 1.15;
+  scroll-behavior: smooth;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -2850,6 +2851,7 @@ body:not(.home) .header.header-landing .home-link {
 }
 .footer-menu-wrapper {
   display: flex;
+  justify-content: space-evenly;
 }
 .footer-nav .footer-menu,
 .footer-nav .sub-menu {
@@ -4269,7 +4271,6 @@ body:not(.home) .header.header-landing .home-link {
   margin-left: auto;
 }
 .resource-grid .filter-bar-outer-container > .container,
-
 .resource-card-collection {
   padding: 1.25rem 0;
 }
@@ -12048,7 +12049,6 @@ body:not(.home) .header.header-landing .home-link {
   }
 }
 @media screen and (max-width: 800px) {
-
   .block.stats-card .image {
     background-size: contain;
   }
