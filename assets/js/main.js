@@ -32364,13 +32364,6 @@ object-assign
           (e.activeItem = t);
       }
     }
-    document.addEventListener("DOMContentLoaded", function () {
-      (i = document.querySelectorAll(".flexible-layout.anchor-subnav")).length >
-        0 &&
-        ((i = n(i)).forEach(a),
-        window.addEventListener("scroll", o),
-        window.addEventListener("resize", s));
-    });
   },
   function (e, t) {
     var n,
