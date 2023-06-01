@@ -1300,6 +1300,17 @@ body:not(.home) .header.header-landing .home-link {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 500px) {
+  .footer-section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  .footer-section-item {
+    margin: 10px 0;
+  }
+}
+
 .footer-section-item {
   font-size: 14px;
 }
@@ -6049,11 +6060,7 @@ body:not(.home) .header.header-landing .home-link {
     line-height: 3.375rem;
   }
 }
-@media screen and (min-width: 800px) and (min-width: 62.5em) {
-  .home .flexible-layout.hero.image-overlay .container .heading {
-    font-size: 3.875rem;
-  }
-}
+
 
 @media screen and (min-width: 73.125em) {
   .flexible-layout.color-block-with-icon-bulleted-content
